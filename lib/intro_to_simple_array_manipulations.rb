@@ -1,6 +1,8 @@
 array = []
 array2 = []
-array.push("Tobie")
+def
+  array.push("Tobie")
+end
 array.unshift("Tsuzuki")
 array.pop
 array.pop(2)
