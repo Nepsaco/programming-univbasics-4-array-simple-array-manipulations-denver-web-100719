@@ -1,27 +1,27 @@
-def using_push(Array, String)
+def using_push(array, string)
   array.push
 end
 
-def using_unshift(Array,String)
+def using_unshift(array,string)
   array.unshift
 end
 
-def using_pop(Array)
+def using_pop(array)
 array.pop
 end
 
-def pop_with_args(Array)
+def pop_with_args(array)
 array.pop(2)
 end
 
-def using_shift(Array)
+def using_shift(array)
 array.shift
 end
 
-def shift_with_args(Array) 
+def shift_with_args(array) 
   array.shift(2)
 end
 
-def using_concat(Array, Array)
-  array.concat(Array)
+def using_concat(array, array)
+  array.concat(array)
 end
