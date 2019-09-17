@@ -1,11 +1,21 @@
-array = []
-array2 = []
-def
-  array.push("Tobie")
+def using_push(Array, String)
+  array.push
 end
-array.unshift("Tsuzuki")
+def using_unshift(Array,String)
+  array.unshift
+end
+def using_pop(Array)
 array.pop
+end
+def pop_with_args(Array)
 array.pop(2)
-array.unshift
-array.shift(2)
-array.concat(array2)
+end
+def using_shift(Array)
+array.shift
+end
+def shift_with_args(Array) 
+  array.shift(2)
+end
+def using_concat(Array, Array)
+  array.concat(Array)
+end
